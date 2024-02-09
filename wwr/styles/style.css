@@ -7,11 +7,7 @@ nav a {
     text-align: center;
 }
 
-#hero-img h1 {
-    text-align: center;
-}
-
-#hero-img h4 {
+#adventure h1, h4 {
     text-align: center;
 }
 
@@ -21,60 +17,103 @@ nav a {
 
 main {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #background {
     height: 725px;
 }
 
-
 body {
     background-color: whitesmoke;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: #78C5D7;
 }
+
 nav a {
     color: #134266;
     text-decoration: none;
+    padding: 35px;
 }
+
 nav a:hover {
     background-color: #FCE172;
     color: black;
 }
+
 .home-title{
     color: #134266;
+    font-size: 2em;
+    margin-top: 10px;
 }
+
 h4 {
     color: #134266;
 }
-.book, .join {
+
+.join {
     background-color: whitesmoke;
     color: #134266;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover, .join:hover {
+.book {
+    background-color: #78C5D7;
+    color: #134266;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.join:hover {
     background-color: #78C5D7;
     color: black;
 }
+
+.book:hover {
+    background-color: #FCE172;
+    color: black;
+}
+
 #background {
     background-color: #134266;
 }
 .msg {
     background-color: #FCE172;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
 .msg h2{
     color: #134266;
 }
 .msg p {
     color: #134266;
+    font-size: .8em ;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #78C5D7;
     color: black;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -90,14 +129,36 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 img.logo {
     width: 80px;
 }
 
 img.icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 img#hero-img {
     width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+} 
+
+.card-img {
+    border: 10px solid #134266;
+}
+
+main section img {
+    box-sizing: border-box;
 }

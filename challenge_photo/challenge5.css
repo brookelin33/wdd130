@@ -1,0 +1,25 @@
+#header {
+    max-width: 100%;
+}
+
+img.circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    border: 3px solid rgb(46, 46, 46);
+    background: rgb(46, 46, 46);
+    margin: auto;
+    padding: 5px 5px;
+}
+
+main {
+    background-color: rgb(108, 108, 108);
+}
+
+div {
+    text-align: center;
+    display: flex;
+}
