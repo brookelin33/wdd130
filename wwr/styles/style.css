@@ -42,7 +42,7 @@ h2 {
 }
 
 header {
-    background-color: #78C5D7;
+    background-color: #78C5D780;
     display: grid;
     grid-template-columns: 150px auto;
 }
