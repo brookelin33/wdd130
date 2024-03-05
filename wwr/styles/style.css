@@ -234,6 +234,41 @@ main section img {
     box-sizing: border-box;
 }
 
+#rivers-title {
+    text-align: center;
+    font-size: 65px;
+    color: #134266;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+#utah {
+    grid-column: 1/2;
+    padding: 30px;
+}
+
+#arizona {
+    grid-column: 2/3;
+    padding: 30px;
+}
+
+#idaho {
+    grid-column: 3/4;
+    padding: 30px;
+}
+
+main section .river-imgs {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
